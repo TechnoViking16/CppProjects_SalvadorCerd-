@@ -24,6 +24,14 @@ DynArray::DynArray(size_t size, const int & value)
 
 DynArray::DynArray(int * arr, size_t size)
 {
+	m_capacity = size;
+	m_size = size;
+	m_data = arr;
+}
+
+DynArray::~DynArray(void)
+{
+
 }
 
 

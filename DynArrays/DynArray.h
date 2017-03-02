@@ -6,13 +6,11 @@ class DynArray
 public:
 	// constructors
 	DynArray (void);													// constructs the class by default
-
-
 	DynArray ( size_t size);												// creates the array with a defined size
 	DynArray (size_t size, const int &value);							// creates and initializes the elements of the array with a value
 	 DynArray (int *arr, size_t size);									// initializes each element from an external array
 
-																		/*
+																	
 
 
 	// destructor
