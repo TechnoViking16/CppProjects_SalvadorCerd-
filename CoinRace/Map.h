@@ -1,8 +1,19 @@
 #pragma once
 class Map
 {
-public:
-	Map();
+private:
+	int diff;
+	static const int capacidad=;
+	
+
+
+public:			//Métodos
+
+	Map(int);			//Constructor
+
+	void rellenar();
+
+
 	~Map();
 };
 

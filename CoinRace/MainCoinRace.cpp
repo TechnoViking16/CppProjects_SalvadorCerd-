@@ -1,6 +1,7 @@
-#include <stdlib.h>
-#include <time.h>
+#include "Map.h"
 #include <iostream>
+#include<time.h>
+#include<stdlib.h>
 
 void main() {
 	int c = 0;
